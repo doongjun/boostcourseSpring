@@ -43,7 +43,7 @@ public class GuestbookDao {
 		return insertAction.executeAndReturnKey(params).longValue();
 	}
 	
-	public int deleteById(Integer id) {
+	public int deleteById(Long id) {
 		Map<String, ?> params = Collections.singletonMap("id", id);
 		return jdbc.update(DELETE_BY_ID, params);
 	}
