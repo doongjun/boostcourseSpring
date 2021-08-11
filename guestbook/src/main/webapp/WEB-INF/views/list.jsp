@@ -18,6 +18,7 @@
 		name : ${guestbook.name }<br>
 		message : ${guestbook.content }<br>
 		날짜 : ${guestbook.regdate }<br>
+		<c:if test="${sessionScope.isAdmin=='true' }"><a href="delete?id=${guestbook.id }">삭제</a><br></c:if>
 		<br>
 	</c:forEach>
 	<br>
