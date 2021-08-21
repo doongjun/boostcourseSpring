@@ -28,3 +28,4 @@ public class PasswordEncoderTest {
 		System.out.println(test);
 	}
 }	
+
