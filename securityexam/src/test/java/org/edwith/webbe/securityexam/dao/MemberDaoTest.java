@@ -42,4 +42,14 @@ public class MemberDaoTest {
 		Assert.assertNotNull(member);
 		Assert.assertEquals("김동준", member.getName());
 	}
+	
+	@Test
+	public void addUser() throws Exception{
+		Member member = new Member(1L, "test", "test", "test");
+		memberDao.addMember(member);
+		member = memberDao.getMemberByEmail("test");
+		Assert.assertNotNull(member);
+		Assert.assertEquals("test", member.getName());
+		Assert.assertEquals("test", member.getPassword());
+	}
 }
