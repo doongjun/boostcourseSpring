@@ -44,6 +44,11 @@ public class MemberServiceImpl implements MemberService {
 
 		return list;
 	}
+	
+	@Override
+	public Member getMemberByEmail(String email) {
+		return memberDao.getMemberByEmail(email);
+	}
 
 	@Override
 	@Transactional(readOnly=false)
