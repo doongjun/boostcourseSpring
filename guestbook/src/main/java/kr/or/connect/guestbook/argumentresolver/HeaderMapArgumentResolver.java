@@ -16,7 +16,7 @@ public class HeaderMapArgumentResolver implements HandlerMethodArgumentResolver 
 		return parameter.getParameterType() == HeaderInfo.class;
 	}
 	
-	// suooirtsParameter가 true인 파라미터에 대해 어떤 값을 넣어줄 것인지에 대한 로직 수행
+	// supportsParameter가 true인 파라미터에 대해 어떤 값을 넣어줄 것인지에 대한 로직 수행
 	@Override
 	public Object resolveArgument(MethodParameter parameter, ModelAndViewContainer mavContainer,
 			NativeWebRequest webRequest, WebDataBinderFactory binderFactory) throws Exception {
