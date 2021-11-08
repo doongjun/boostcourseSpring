@@ -73,7 +73,7 @@
 * Spring Security Config
 * Login & Logout
 
-### 💻 [프로젝트D. 예약 : Spring Security를 이용한 로그인하기 및 예약 관련 WEB API 만들기](https://doongjun.tistory.com/79?category=953247) ✔️
+### 💻 [프로젝트D. 예약 : Spring Security를 이용한 로그인 및 예약 관련 WEB API 만들기](https://doongjun.tistory.com/79?category=953247) ✔️
 
 ## 11. Interceptor
 
