@@ -84,7 +84,7 @@
 
 ## 14. File Upload & Download
 
-### 💻 [프로젝트E. 예약 : 한줄평 관련 WEB API 만들기](/) ✔️
+### 💻 [프로젝트E. 예약 : 한줄평 관련 WEB API 만들기](https://doongjun.tistory.com/82) ✔️
 
 <br/>
 
